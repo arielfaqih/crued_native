@@ -1,0 +1,6 @@
+node_modules
+# Keep environment variables out of version control
+.env
+# Uploaded images (the folder itself must exist for multer)
+uploads/*
+!uploads/.gitkeep
